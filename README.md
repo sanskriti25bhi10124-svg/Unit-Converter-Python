@@ -1,14 +1,6 @@
 # Unit-Converter-Python
 A feature-rich console-based universal unit converter (length, weight, temperature) with input validation and modular design. Made by Sanskriti Tyagi, VIT Bhopal 2025
 
-# Universal Unit Converter (Python)  
-
-**A fast, accurate, and user-friendly console-based unit converter for Length, Weight & Temperature**  
-
-**Made by:** Sanskriti Tyagi  
-**Vellore Institute of Technology, Bhopal**  
-**2025**
-
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/SanskritiTyagi/Unit-Converter-Python)](https://github.com/SanskritiTyagi/Unit-Converter-Python/issues)
@@ -25,18 +17,22 @@ A feature-rich console-based universal unit converter (length, weight, temperatu
 
 ## Screenshots  
 
-![Main Menu](screenshots/menu.png)  
-*Main Menu*  
+<img width="952" height="679" alt="image" src="https://github.com/user-attachments/assets/102f1ac9-3bbf-4163-83cf-2ae132f117c4" />
 
-![Length Conversion](screenshots/length.png)  
-*Length Conversion (meter → feet)*  
+Project Structure
 
-![Temperature Conversion](screenshots/temperature.png)  
-*Temperature Conversion (Celsius → Fahrenheit → Kelvin)*  
+Learnings from This Project
 
-## How to Run  
+Functions & modular programming
+Dictionaries for unit mapping
+Exception handling (try-except)
+User input validation
+Clean code & documentation
 
-### Method 1: Direct Download & Run  
-1. Download or clone this repository  
-   ```bash
-   git clone https://github.com/SanskritiTyagi/Unit-Converter-Python.git
+License
+This project is licensed under the MIT License – feel free to use, modify, and share!
+Connect with Me
+LinkedIn
+GitHub
+Star this repo if you liked it!
+Your support motivates me to build more projects
