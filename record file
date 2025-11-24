@@ -1,0 +1,211 @@
+UNIT CONVERTER APPLICATION (PYTHON)
+PROJECT REPORT
+
+Project Title: Unit Converter Application (Python) 
+Submitted by: Sanskriti Tyagi
+ Institution: Vellore Institute of Technology Bhopal
+Year: 2025
+
+INTRODUCTION 
+
+The Unit Converter is a Python-based application designed to convert values across length, weight, and temperature units. It simplifies daily measurement tasks and showcases Python fundamentals including functions, loops, conditionals, and input handling.
+
+PROBLEM STATEMENT
+
+ People frequently need to convert measurement units accurately. Manual conversion is error-prone and time-consuming. The objective is to build a simple console-based tool that performs fast and accurate unit conversions.
+
+The problem:
+ A simple, user-friendly tool is needed to accurately convert values between common units without requiring manual calculation or external formulas. 
+
+Goal: To develop a Python-based Unit Converter that covers commonly used unit categories and delivers accurate results instantly.
+
+FUNCTIONAL REQUIREMENTS
+
+ - Convert length units (m, cm, km, miles)
+ - Convert weight units (g, kg, lb) 
+- Convert temperature units (C, F, K) 
+- User-friendly interactive menu
+ - Input validation 
+- Repeated usage without restarting
+- Support conversion for Length (meter, centimeter, kilometer, mile, foot, inch) 
+- Support conversion for Weight/Mass (gram, kilogram, pound, ounce) 
+-  Support conversion for Temperature (Celsius, Fahrenheit, Kelvin) 
+-  Interactive menu-driven interface 
+-  Bidirectional conversion (e.g., meter ↔ feet) 
+-  Input validation (numeric values only) 
+-  Option to perform multiple conversions without restarting 
+-  Clear display of results with proper unit labels
+
+NON-FUNCTIONAL REQUIREMENTS 
+- High accuracy 
+- Fast performance 
+- Easy maintainability
+- User-friendly design
+- Portability across systems
+-No external dependencies (pure Python) 
+
+SYSTEM ARCHITECTURE 
+Input Layer  Conversion Engine  Output Layer User inputs data  conversion logic processes it  results are displayed.
+
+1.	User Input Module 
+ Accepts value and unit selection. 2
+2.	. Conversion Engine 
+ Applies conversion formulas using Python functions.
+3.	 Result Display 
+Shows converted result.
+4.	Loop Controller 
+ Allows user to repeat operations.
+
+DESIGN DIAGRAMS 
+USE CASE DIAGRAM:
+Use Cases: 
+• Select category 
+• Enter value 
+• Choose unit 
+• Convert units 
+• View result 
+• Exit program
+User  Select Units  Convert  View Result
+ 
+
+
+
+
+
+
+
+
+
+WORKFLOW DIAGRAM:
+ Start  Choose Category  Enter Value  Convert  Show Result  Continue  End
+
+SEQUENCE DIAGRAM: 
+User  Program  Conversion Function  Output Result
+
+CLASS DIAGRAM: 
+UnitConverter  convert_length()  convert_weight()  convert_temperature()
+
+
+
+
+
+
+
+
+
+
+
+DESIGN DECISIONS & RATIONALE:
+ Chosen to be console-based for simplicity. Modular functions allow easy expansion. Error handling improves reliability
+• Functions were used to group conversion logic, improving code readability.
+ • If-else statements were used for simple decisionmaking
+. • No database was used to keep the system lightweight
+. • Loop structure allows continuous use without restarting the program
+
+
+
+
+
+
+
+
+
+
+
+
+
+IMPLEMENTATION DETAILS
+Python used with structured functional design. Conversion formulas implemented with accuracy
+
+Core logic uses Python fundamentals: 
+• Functions for each category
+• Dictionary-based unit mapping 
+• Temperature conversion formulas 
+• Error handling using try-except 
+• Input validation for numeric values 
+Example Code Snippet: 
+def meter_to_km(m):
+ return m / 1000 
+value = float(input("Enter meters: ")) 
+print("Kilometers:", meter_to_km(value))
+
+
+
+
+
+
+
+
+Screenshots / Results:- 
+ 
+ 
+ 
+
+
+
+
+CODE:
+def kg_to_gram(kg):
+    return kg * 1000
+
+def km_to_meter(km):
+    return km * 1000
+
+def c_to_f(c):
+    return (c * 9/5) + 32
+
+while True:
+    print("\n1. KG to Gram")
+    print("2. KM to Meter")
+    print("3. Celsius to Fahrenheit")
+    print("4. Exit")
+
+    choice = input("Enter choice: ")
+
+    if choice == "1":
+        kg = float(input("Enter kg: "))
+        print("In grams:", kg_to_gram(kg))
+
+    elif choice == "2":
+        km = float(input("Enter km: "))
+        print("In meters:", km_to_meter(km))
+
+    elif choice == "3":
+        c = float(input("Enter °C: "))
+        print("In °F:", c_to_f(c))
+
+    elif choice == "4":
+        break
+
+    else:
+        print("Invalid choice")
+
+
+Challenges Faced: - 
+• Handling invalid inputs gracefully
+ • Designing accurate conversion formulas
+• Ensuring modularity for new units 
+• Building clear menu structures for user navigation
+
+LEARNINGS & KEY TAKEAWAYS 
+- Improved Python fundamentals 
+- Better understanding of modular code 
+- Real-world application of conversions
+
+
+FUTURE ENHANCEMENTS 
+- Add GUI 
+- Add more unit categories 
+- Add voice input/output
+- Convert to mobile app
+
+
+REFERENCES 
+- Python Documentation 
+- GeeksforGeeks Tutorials 
+- Measurement Standards Source
+.
+
+
+
+
