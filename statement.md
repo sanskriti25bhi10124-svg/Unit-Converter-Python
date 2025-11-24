@@ -11,13 +11,6 @@ Temperature: Celsius, Fahrenheit, Kelvin (bidirectional)
 The application is designed as a console-based tool with a focus on usability, accuracy, and extensibility. It serves as a practical demonstration of core programming concepts while solving a real-world problem.
 Target Users
 
-Students (school and college)
-Teachers and academic professionals
-Engineers and technicians
-Travelers and homemakers
-Beginners learning Python programming
-Anyone needing quick offline unit conversion
-
 High-Level Features
 
 Interactive menu-driven interface
