@@ -1,4 +1,3 @@
-Problem Statement: Here’s a professional, ready-to-use Problem Statement + Scope section you can directly copy-paste into your project report or README.md. It’s perfectly suited for college submission and looks impressive.
 Problem Statement
 In daily life, academics, engineering, cooking, and travel, people frequently need to convert units of length (e.g., meters to feet), weight (e.g., kg to pounds), and temperature (e.g., Celsius to Fahrenheit). Performing these conversions manually using formulas is time-consuming, tedious, and often leads to calculation errors. Many students and professionals rely on online tools that require an internet connection or mobile apps that are bloated and contain ads.
 There is a clear need for a simple, accurate, offline, and lightweight unit conversion tool that works instantly without any dependencies.
